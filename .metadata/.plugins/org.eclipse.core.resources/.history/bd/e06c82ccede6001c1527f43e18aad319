@@ -1,0 +1,30 @@
+package application;
+	
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+
+public class Main extends Application {
+	@Override
+	public void start(Stage stage) {
+		try {
+			// stage>scene>container>node
+			StackPane pane = new StackPane(); //container
+			Scene scene = new Scene(pane,300,500);
+			
+		
+			stage.setScene(scene);
+			stage.show();
+			stage.setTitle("My Windows");
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

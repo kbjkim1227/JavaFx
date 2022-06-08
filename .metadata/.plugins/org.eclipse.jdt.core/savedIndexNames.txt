@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+D:\bong date\javafx data\.metadata\.plugins\org.eclipse.jdt.core
+1828251375.index
+386766412.index
+3517062245.index
+2197194691.index
+4038441803.index
+469751417.index
